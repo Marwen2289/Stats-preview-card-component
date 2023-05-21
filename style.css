@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: #0a0c1b;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text {
+    background-color: #1c1937;
+    height: 250px;
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.main-paragraph > p > span {
+    color:  hsl(277, 64%, 61%);
+}
+
+.main-paragraph > p {
+    font-size: x-large;
+    text-align: start;
+}
+
+.second-paragraph > p {
+    font-size: x-small;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: start;
+    margin-top: 10px;
+}
+
+div > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.container > .text {
+    flex-basis: 330px;
+}
+
+.viewers {
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    font-size: small;
+}
+
+.viewers > div > span {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+    
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.attribution a {
+   color: white; 
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-top: 50px;
+         
+    }
+}
